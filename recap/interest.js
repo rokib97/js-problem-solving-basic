@@ -5,7 +5,7 @@ function simpleInterest(ammount, time, rate){
     return totalInterest;
 }
 let investMoney = 500;
-let yearCount = 10;
-let interestCount = 10;
+let yearCount = 5;
+let interestCount = 5;
 let result = simpleInterest(investMoney,yearCount,interestCount);
 console.log(result);
