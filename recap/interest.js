@@ -4,7 +4,7 @@ function simpleInterest(ammount, time, rate){
     let totalInterest = (ammount * time * rate) / 100;
     return totalInterest;
 }
-let investMoney = 500;
+let investMoney = 7000;
 let yearCount = 5;
 let interestCount = 5;
 let result = simpleInterest(investMoney,yearCount,interestCount);
