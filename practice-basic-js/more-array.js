@@ -3,12 +3,11 @@
 const numbers = [4, 12, 17, -5, 58, -10];
 function positiveNumFinder(numbers) {
     let newNumbers = [];
-    for(const num of numbers){
-        if(num >= 0){
+    for (const num of numbers) {
+        if (num >= 0) {
             newNumbers.push(num);
-        }
-        else if( num < 0){
-             break;
+        } else if (num < 0) {
+            break;
         }
     }
     return newNumbers;

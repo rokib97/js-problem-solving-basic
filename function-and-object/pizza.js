@@ -1,16 +1,12 @@
 // ৫) pizza নামের একটা object কে নিচের উদাহরণ মতো define করবা :
 
-
-
 const pizza = {
+    toppings: ["cheese", "sauce", "pepperoni"],
 
-    toppings: ['cheese', 'sauce', 'pepperoni'],
-   
-    crust: 'deep dish',
-   
-    serves: 2
-   
-   }
+    crust: "deep dish",
 
-   var toppingItemThree = pizza.toppings[2];
-   console.log(toppingItemThree)
+    serves: 2,
+};
+
+var toppingItemThree = pizza.toppings[2];
+console.log(toppingItemThree);

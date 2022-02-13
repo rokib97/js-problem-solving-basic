@@ -23,6 +23,5 @@ function paperRequirements(first, second, third) {
     return totalPages;
 }
 
-
 const result = paperRequirements(4, 3, 5);
 console.log(result);

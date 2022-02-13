@@ -2,14 +2,13 @@
 
 function SecondLargestNum(numbers) {
     let largestNum = numbers[0];
-    for(let i = 0; i<numbers.length; i++){
+    for (let i = 0; i < numbers.length; i++) {
         let arrElement = numbers[i];
-        if(arrElement > largestNum){
+        if (arrElement > largestNum) {
             largestNum = arrElement;
         }
     }
     console.log(largestNum);
 }
-
 
 SecondLargestNum([11, 2, 44, 20]);
