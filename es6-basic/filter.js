@@ -8,3 +8,22 @@ const evens = numbers.filter((number) => number % 2 == 0);
 console.log(odds);
 // console.log(...odds);
 console.log(evens);
+
+
+
+
+
+
+
+
+
+/* const greaterThanTwenty = (numbers) => {
+  const output = [];
+  for (const num of numbers) {
+    if (num > 20) {
+      output.push(num);
+    }
+  }
+  return output;
+};
+console.log(greaterThanTwenty(numbers)); */

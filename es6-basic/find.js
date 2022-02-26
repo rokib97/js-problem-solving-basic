@@ -11,4 +11,4 @@ const priceProduct = products.find((product) => product.price == 5000);
 
 // for each
 
-const whiteProduct = products.forEach((product) => console.log(product));
+const whiteProduct = products.forEach((product) => console.log(product.price));

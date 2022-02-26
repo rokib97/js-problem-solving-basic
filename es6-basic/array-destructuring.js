@@ -2,5 +2,5 @@
 
 const names = ["sakib", "rakib", "towhid", "sumon"];
 
-const [first, , third, , fifth] = names;
+const [, , third] = names;
 console.log(third);
