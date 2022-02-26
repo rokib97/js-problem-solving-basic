@@ -17,7 +17,7 @@ const { name, job } = student;
 const [first, second, third] = student.favPlyers;
 // console.log(first, balance, third);
 
-// more
+// more array destructuring
 const numbers = [7, 12, 15, 38, 15, 156];
 const [, balance, newNumber, ...rest] = numbers;
 console.log(balance, newNumber);
